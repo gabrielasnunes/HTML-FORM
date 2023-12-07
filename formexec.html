@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <div><label for="nome">Nome Completo:</label>
+            <input required type="text" name="nome" placeholder="Insira seu nome completo"></div>
+            <div>
+            <label for="nome">Data de Nascimento:</label>
+            <input required type="date" name="nome">
+        </div>
+        <div>
+            <label>Género:</label>
+            <select>
+                <option disabled selected></option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informações da Conta:</legend>
+            <div>
+                <label for="email">Endereço de E-mail:</label>
+                <input required type="email" name="email" placeholder="Insira seu e-mail"> 
+            </div>
+            <div>
+                <label for="password">Palavra-passe:</label>
+                <input required type="password" name="password">
+            </div>
+            <div>
+                <label for="password">Confirmar Palavra-passe:</label>
+                <input required type="password" name="password">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Preferências de Comunicação</legend>
+            <div>
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox">
+            <label>Aceitar receber novidades por e-mail.</label>
+        </div>
+        </fieldset>
+        <input type="submit" value="Submeter"> 
+
+
+    </form>
+</body>
+</html>
